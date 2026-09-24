@@ -1,0 +1,4 @@
+claim_id,public_statement,source_id,period,scope,qualification,limit
+PUB-RSA-001,La fiche départementale décrit le courrier et la désignation d'un référent après IOC,SRC-PUB-001,2026,procédure générale,OBS-DECLARATION,Ne démontre pas la situation individuelle
+PUB-RSA-002,Le guide Service Public décrit le droit de demander un document administratif et la voie CADA,SRC-PUB-002,2026,cadre général,INFORMATION_OFFICIELLE,Ne résout pas un refus particulier
+PUB-RSA-003,La CNIL présente le droit d'accès aux données personnelles,SRC-PUB-004,2026,cadre général,INFORMATION_OFFICIELLE,Distinct de l'accès général aux marchés publics

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muse-irs.github.io/ardeche-rsa-insertion-parcours-observatoire-public/sitemap.xml

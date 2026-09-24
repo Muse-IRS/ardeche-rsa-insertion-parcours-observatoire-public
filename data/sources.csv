@@ -1,0 +1,6 @@
+source_id,title,producer,url,category,scope,checked_on,claim_limit
+SRC-PUB-001,Je souhaite connaître mon référent parcours RSA,Département de l'Ardèche,https://www.ardeche.fr/demarches/insertion-professionnelle/je-suis-beneficiaire-du-rsa/je-souhaite-connaitre-mon-referent-parcours-rsa/,institutional-process,Ardèche,2026-09-25,Procédure décrite et non preuve de l'exécution individuelle
+SRC-PUB-002,Accès aux documents administratifs,Service Public,https://www.service-public.fr/particuliers/vosdroits/F2467,public-administration-law,France,2026-09-25,Information générale et non décision individuelle
+SRC-PUB-003,Quand et comment saisir la CADA,CADA,https://www.cada.fr/particulier/quand-et-comment-saisir-la-cada,document-access,France,2026-09-25,Procédure et non avis rendu sur un dossier particulier
+SRC-PUB-004,Droit d'accès à ses données personnelles,CNIL,https://www.cnil.fr/fr/definition/droit-dacces-ses-donnees-personnelles,personal-data,France,2026-09-25,Ne constitue pas un droit général à la copie de chaque contrat
+SRC-PUB-005,Données essentielles commande publique,Data.gouv.fr,https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-decp-arrete-du-22-12-2022-marches,procurement,France,2026-09-25,Point d'entrée général sans attribution particulière établie
