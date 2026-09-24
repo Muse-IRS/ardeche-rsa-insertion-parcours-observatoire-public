@@ -1,4 +1,6 @@
 claim_id,public_statement,source_id,period,scope,qualification,limit
-PUB-RSA-001,La fiche départementale décrit le courrier et la désignation d'un référent après IOC,SRC-PUB-001,2026,procédure générale,OBS-DECLARATION,Ne démontre pas la situation individuelle
-PUB-RSA-002,Le guide Service Public décrit le droit de demander un document administratif et la voie CADA,SRC-PUB-002,2026,cadre général,INFORMATION_OFFICIELLE,Ne résout pas un refus particulier
-PUB-RSA-003,La CNIL présente le droit d'accès aux données personnelles,SRC-PUB-004,2026,cadre général,INFORMATION_OFFICIELLE,Distinct de l'accès général aux marchés publics
+PUB-RSA-001,"La fiche du Département présente le courrier d'information et la désignation d'un référent après IOC",SRC-PUB-001,2026,"Procédure générale",OBS-DECLARATION,"Ne démontre pas une affectation individuelle"
+PUB-RSA-002,"Le guide Service Public présente les modalités de demande d'un document administratif et le recours à la CADA",SRC-PUB-002,2026,"Cadre général",INFORMATION_OFFICIELLE,"Ne tranche aucun refus particulier"
+PUB-RSA-003,"La CNIL présente le droit d'accès aux données personnelles",SRC-PUB-004,2026,"Cadre général",INFORMATION_OFFICIELLE,"Distinct de la communication des marchés publics"
+PUB-RSA-004,"Le Département présente l'opération FSE+ 202404109 relative à l'accompagnement socioprofessionnel individuel par des prestataires externes pour 2025–2026",SRC-PUB-006,"2025–2026","Opération déclarée de cofinancement",OBS-DECLARATION,"Ne nomme pas le titulaire d'un marché spécialisé TNS et ne prouve pas l'exécution"
+PUB-RSA-005,"L'article L311-1 du CRPA prévoit la communication des documents administratifs détenus sous réserves légales",SRC-PUB-007,2026,"Droit national",TEXTE_OFFICIEL,"Ne préjuge pas du caractère communicable de chaque mention contractuelle"

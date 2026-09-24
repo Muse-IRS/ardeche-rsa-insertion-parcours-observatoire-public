@@ -12,7 +12,8 @@ Accueil prévu : https://muse-irs.github.io/ardeche-rsa-insertion-parcours-obser
 
 - `index.html` : accueil et parcours pédagogique.
 - `marches-prestataires.html` : distinguer publication, attribution, contrat, sous-traitance, exécution.
-- `demarches.html` : accès aux documents, référent, RGPD, sources officielles.
+- `demarches.html` : accès aux documents, référent, RGPD et sources officielles.
+- `sources.html` : registre lisible des sources primaires, périmètres, temporalités et limites.
 - `charte-editoriale.html` et `privacy.html` : cadre éditorial et confidentialité.
 - `affiche-qr-observatoire.html` : affiche A4 avec QR code **autonome** pointant vers ce site et lien de retour vers l'accueil.
 - `assets/` : feuille de style, QR SVG, affiche PDF imprimable.
