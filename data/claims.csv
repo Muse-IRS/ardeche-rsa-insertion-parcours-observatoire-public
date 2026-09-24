@@ -1,6 +1,6 @@
-claim_id,public_statement,source_id,period,scope,qualification,limit
-PUB-RSA-001,"La fiche du Département présente le courrier d'information et la désignation d'un référent après IOC",SRC-PUB-001,2026,"Procédure générale",OBS-DECLARATION,"Ne démontre pas une affectation individuelle"
-PUB-RSA-002,"Le guide Service Public présente les modalités de demande d'un document administratif et le recours à la CADA",SRC-PUB-002,2026,"Cadre général",INFORMATION_OFFICIELLE,"Ne tranche aucun refus particulier"
-PUB-RSA-003,"La CNIL présente le droit d'accès aux données personnelles",SRC-PUB-004,2026,"Cadre général",INFORMATION_OFFICIELLE,"Distinct de la communication des marchés publics"
-PUB-RSA-004,"Le Département présente l'opération FSE+ 202404109 relative à l'accompagnement socioprofessionnel individuel par des prestataires externes pour 2025–2026",SRC-PUB-006,"2025–2026","Opération déclarée de cofinancement",OBS-DECLARATION,"Ne nomme pas le titulaire d'un marché spécialisé TNS et ne prouve pas l'exécution"
-PUB-RSA-005,"L'article L311-1 du CRPA prévoit la communication des documents administratifs détenus sous réserves légales",SRC-PUB-007,2026,"Droit national",TEXTE_OFFICIEL,"Ne préjuge pas du caractère communicable de chaque mention contractuelle"
+claim_id,proposition,source_ids,etat,portee,verification
+CLM-PUB-001,Le RSA fait l'objet d'un cadre national public,SRC-RSA-001,SOURCE_OFFICIELLE,Les parcours locaux nécessitent leurs propres sources,2026-09-25
+CLM-PUB-002,Le CRPA encadre la communication de documents administratifs,SRC-RSA-002,SOURCE_JURIDIQUE,Communicabilité document par document,2026-09-25
+CLM-PUB-003,L'accès aux données personnelles est distinct de la communication CRPA,SRC-RSA-002;SRC-RSA-003,SOURCE_OFFICIELLE,Périmètres différents,2026-09-25
+CLM-PUB-004,La fiche d'annuaire établirait une attribution de marché à Pollen,SRC-RSA-007,NON_ETABLI,Ne prouve que le contenu de la fiche publiée,2026-09-25
+CLM-PUB-005,L'identité du titulaire du marché RSA non-salariés est prouvée par une pièce publique primaire,SRC-RSA-004;SRC-RSA-005,UNKNOWN,Avis et acte exacts non identifiés dans le présent registre,2026-09-25
