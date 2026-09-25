@@ -61,7 +61,7 @@ assert all((ROOT/p).exists() for p in PAGES)
 
 # Vérifier le rectificatif temporel apporté à la page Capévol.
 cap=(ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
-assert "date du 16 mai est rapportée pour la politique actuelle uniquement" in cap
+assert "le 16 mai est la date éditoriale rapportée pour la politique actuelle" in cap
 assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
 assert "Datation : quatre preuves distinctes" in cap
 
@@ -69,7 +69,7 @@ assert "Datation : quatre preuves distinctes" in cap
 cap = (ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
 assert "Apports de l'étude technique Perplexity" in cap
 assert "Gemini" not in cap and "erreur de provenance" not in cap
-assert "date du 16 mai est rapportée pour la politique actuelle uniquement" in cap
+assert "le 16 mai est la date éditoriale rapportée pour la politique actuelle" in cap
 assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
 dep = (ROOT/"audit-technique-departement.html").read_text(encoding="utf-8")
 assert "IONOS" in dep and "non réalisés par notre observatoire" in dep
