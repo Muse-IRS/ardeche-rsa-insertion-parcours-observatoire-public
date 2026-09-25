@@ -76,3 +76,42 @@ assert "IONOS" in dep and "non réalisés par notre observatoire" in dep
 assert "audit-technique-departement.html" in (ROOT/"audit-technique-sites.html").read_text(encoding="utf-8")
 assert "audit-technique-departement.html" in (ROOT/"sitemap.xml").read_text(encoding="utf-8")
 assert all("Gemini" not in (ROOT/p).read_text(encoding="utf-8") for p in PAGES)
+
+
+# Contrôles complémentaires : couverture intégrale du sitemap, canoniques et minimisation.
+import re
+from xml.etree import ElementTree as ET
+
+namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+sitemap_urls = {
+    el.text for el in ET.parse(ROOT / "sitemap.xml").iter(namespace + "loc")
+}
+expected_urls = {BASE if p == "index.html" else BASE + p for p in PAGES}
+assert sitemap_urls == expected_urls, (sitemap_urls ^ expected_urls)
+
+# Un lien canonique unique doit correspondre à l'URL de chaque page servie.
+for path in PAGES:
+    html = (ROOT / path).read_text(encoding="utf-8")
+    urls = re.findall(r'<link\s+rel="canonical"\s+href="([^"]+)"', html, re.I)
+    expected = BASE if path == "index.html" else BASE + path
+    assert urls == [expected], (path, urls, expected)
+
+# Deux exports SVG, un seul contenu encodé : éviter une affiche pointant ailleurs.
+svg_alt = (ROOT / "assets/qr-observatoire-rsa.svg").read_text(encoding="utf-8")
+assert BASE in svg_alt and "<script" not in svg_alt
+def qr_modules(markup):
+    match = re.search(r'<path\b[^>]*\bd="([^"]+)"', markup)
+    assert match
+    return match.group(1)
+assert qr_modules(svg) == qr_modules(svg_alt), "QR SVG incohérents"
+assert (ROOT / "assets/affiche-qr-observatoire-rsa-a4.pdf").read_bytes().startswith(b"%PDF-")
+
+# Éviter l'exposition nominale des référentiels privés dans les pages, CSV ou README.
+public_text_paths = [ROOT / p for p in PAGES] + [ROOT / "README.md",
+    ROOT / "data/sources.csv", ROOT / "data/claims.csv"]
+private_markers = ("PGC-IA-Collaborative", "rsa-formation-data-evidence-control",
+                   "boubekeurjeremy")
+for path in public_text_paths:
+    body = path.read_text(encoding="utf-8").lower()
+    assert not any(marker.lower() in body for marker in private_markers), path
+print("OK — sitemap/canoniques/QR cohérents ; références privées absentes des textes contrôlés")
