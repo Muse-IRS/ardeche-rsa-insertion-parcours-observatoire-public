@@ -21,7 +21,7 @@ Accueil prévu : https://muse-irs.github.io/ardeche-rsa-insertion-parcours-obser
 
 Aucun compte, formulaire de collecte, analytics, cookie applicatif ni générateur QR tiers. Les traitements techniques éventuels de GitHub Pages relèvent de l'hébergeur et ne sont pas masqués.
 
-**Frontière** : aucune correspondance privée, donnée personnelle d'allocataire, capture d'écran personnelle ou élément du dossier individuel `rsa-formation-data-evidence-control` ici. Le dépôt privé de recherche générale reste une autorité distincte.
+**Frontière** : aucune correspondance privée, donnée personnelle d'allocataire, capture d'écran personnelle ou pièce issue d'un dossier individuel n'est publiée ici. La recherche générale est gouvernée séparément ; aucun identifiant de dossier privé n'est exposé.
 
 **Conception collaborative :** initiative éditoriale Muse-IRS, assistance de rédaction et de développement ChatGPT ; responsabilité éditoriale et choix de publication humains.
 
@@ -30,3 +30,7 @@ Aucun compte, formulaire de collecte, analytics, cookie applicatif ni générate
 [Sommaire des six pages](audit-technique-sites.html) · [Département de l’Ardèche](audit-technique-departement.html) · [Capévol](audit-technique-capevol.html) · [Pollen SCOP](audit-technique-pollen.html) · [CréaGestion](audit-technique-creagestion.html) · [Ambition ESS et Ambition Travail 07](audit-technique-ambitions.html).
 
 Les pages distinguent déclarations des éditeurs et sources primaires vérifiées des informations issues du rapport Perplexity. Le site public ne détaille aucun point d'entrée de base de prospects ni aucun dossier individuel ; toute vérification technique nécessitant une administration est réservée à l'exploitant.
+
+## Contrôles de publication
+
+Le validateur `python tools/validate.py`, exécuté par GitHub Actions sur `main` et `gh-pages`, vérifie les pages, les liens locaux, les identifiants des sources, le sitemap, les URL canoniques, les ressources QR/PDF et des invariants élémentaires de confidentialité. Ces contrôles statiques ne remplacent **pas** un audit de sécurité, d'accessibilité ou une consultation HTTP indépendante du site effectivement servi. En cas d'impossibilité de lecture externe, le statut reste `CDN_HTTP_UNVERIFIED`.
