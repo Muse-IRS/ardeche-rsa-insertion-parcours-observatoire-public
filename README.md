@@ -24,3 +24,9 @@ Aucun compte, formulaire de collecte, analytics, cookie applicatif ni générate
 **Frontière** : aucune correspondance privée, donnée personnelle d'allocataire, capture d'écran personnelle ou élément du dossier individuel `rsa-formation-data-evidence-control` ici. Le dépôt privé de recherche générale reste une autorité distincte.
 
 **Conception collaborative :** initiative éditoriale Muse-IRS, assistance de rédaction et de développement ChatGPT ; responsabilité éditoriale et choix de publication humains.
+
+## Audits documentaires des sites — 25 septembre 2026
+
+[Sommaire des cinq pages](audit-technique-sites.html) · [Capévol](audit-technique-capevol.html) · [Pollen SCOP](audit-technique-pollen.html) · [CréaGestion](audit-technique-creagestion.html) · [Ambition ESS et Ambition Travail 07](audit-technique-ambitions.html).
+
+Les pages distinguent déclarations des éditeurs et sources primaires vérifiées des informations issues du rapport Perplexity. Le site public ne détaille aucun point d'entrée de base de prospects ni aucun dossier individuel ; toute vérification technique nécessitant une administration est réservée à l'exploitant.
