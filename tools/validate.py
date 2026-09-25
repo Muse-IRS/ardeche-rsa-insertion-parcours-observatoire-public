@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit
 import csv
 ROOT=Path(__file__).resolve().parents[1]
-PAGES=["index.html","marches-prestataires.html","demarches.html","sources.html","charte-editoriale.html","privacy.html","affiche-qr-observatoire.html"]
+PAGES=["index.html","marches-prestataires.html","demarches.html","sources.html","charte-editoriale.html","privacy.html","affiche-qr-observatoire.html","audit-technique-sites.html","audit-technique-capevol.html","audit-technique-pollen.html","audit-technique-creagestion.html","audit-technique-ambitions.html"]
 BASE="https://muse-irs.github.io/ardeche-rsa-insertion-parcours-observatoire-public/"
 class Parser(HTMLParser):
     def __init__(self):
@@ -50,3 +50,11 @@ assert "autre observatoire" not in qr_page.lower()
 png=(ROOT/"assets/qr-observatoire.png").read_bytes()
 assert png.startswith(b"\x89PNG\r\n\x1a\n") and len(png)>1000
 assert "ardeche-habitat-sc-amplitudes-observatoire-public/" in (ROOT/"index.html").read_text(encoding="utf-8")
+
+# Audit pages: no personal case facts, no active probe or external application scripts.
+for audit in PAGES[7:]:
+    text=(ROOT/audit).read_text(encoding="utf-8")
+    assert "no-referrer" in text and "audit-technique-sites.html" in text,audit
+    assert "<script" not in text,audit
+    assert all(s not in text for s in ("catalogue_leads", "service_role", "boubekeurjeremy")),audit
+assert all((ROOT/p).exists() for p in PAGES)
