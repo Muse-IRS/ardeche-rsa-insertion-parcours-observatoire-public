@@ -4,3 +4,8 @@ CLM-PUB-002,Le CRPA encadre la communication de documents administratifs,SRC-RSA
 CLM-PUB-003,L'accès aux données personnelles est distinct de la communication CRPA,SRC-RSA-002;SRC-RSA-003,SOURCE_OFFICIELLE,Périmètres différents,2026-09-25
 CLM-PUB-004,La fiche d'annuaire établirait une attribution de marché à Pollen,SRC-RSA-007,NON_ETABLI,Ne prouve que le contenu de la fiche publiée,2026-09-25
 CLM-PUB-005,L'identité du titulaire du marché RSA non-salariés est prouvée par une pièce publique primaire,SRC-RSA-004;SRC-RSA-005,UNKNOWN,Avis et acte exacts non identifiés dans le présent registre,2026-09-25
+CLM-SITE-001,Capévol déclare sur son site une mission depuis mars 2026 liée à Pollen et au Département,SRC-SITE-002,DECLARATION_PUBLIQUE,Ne prouve ni contrat ni date de publication de page,2026-09-25
+CLM-SITE-002,Pollen annonce OVH comme hébergeur du site pollen.coop,SRC-SITE-003,DECLARATION_PUBLIQUE,Ne qualifie aucun système métier ni autre domaine,2026-09-25
+CLM-SITE-003,Deux politiques publiques Pollen indiquent des durées de contact différentes,SRC-SITE-003;SRC-SITE-004,OBSERVATION_TEXTUELLE,Versions et périmètres distincts possibles,2026-09-25
+CLM-SITE-004,Ambition ESS se présente comme portail tiers hébergé chez o2switch,SRC-SITE-006,DECLARATION_PUBLIQUE,Ne prouve pas hébergement des acteurs référencés,2026-09-25
+CLM-SITE-005,Ambition Travail 07 est un programme départemental 2026-2029,SRC-SITE-008,SOURCE_INSTITUTIONNELLE,Ne prouve aucune attribution de marché particulier,2026-09-25
