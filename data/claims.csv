@@ -13,3 +13,8 @@ CLM-SITE-006,Les deux notices Pollen diffèrent dans leurs déclarations relativ
 CLM-SITE-007,Ambition ESS déclare une logique cookies intégrant la poursuite de navigation,SRC-SITE-006,DECLARATION_PUBLIQUE,La réalité des traceurs soumis à consentement demeure à tester,2026-09-25
 CLM-SITE-008,Perplexity observe le 16 mai dans la politique mais pas les mentions légales actuelles,SRC-SITE-011;SRC-SITE-012,RAPPORT_SECONDAIRE,Cette datation n'est pas confirmée par une capture historique externe,2026-09-25
 CLM-SITE-009,Aucune modification postérieure au 16 mai de ces textes n'est prouvée,SRC-SITE-011;SRC-SITE-012;SRC-SITE-013;SRC-SITE-014,INDETERMINE,Recherche négative non exhaustive et différences de méthode entre audits,2026-09-25
+CLM-DEP-001,Le Département déclare héberger www.ardeche.fr chez IONOS,SRC-SITE-015,DECLARATION_INSTITUTIONNELLE,Ne prouve pas hébergement d'un logiciel RSA,2026-09-25
+CLM-DEP-002,La politique officielle déclare un DPO et des durées pour formulaires et Matomo,SRC-SITE-016,SOURCE_INSTITUTIONNELLE,Ne décrit pas toutes les données RSA et tous les prestataires,2026-09-25
+CLM-DEP-003,La déclaration du 7 avril 2026 signale absence d'audit RGAA sur le site principal,SRC-SITE-017,DECLARATION_DATEE,Statut actuel et résultat d'un éventuel audit postérieur indéterminés,2026-09-25
+CLM-DEP-004,Ambition Travail 07 distingue des familles de parcours externalisés,SRC-SITE-008;SRC-SITE-019,SOURCE_INSTITUTIONNELLE,Ne prouve pas titulaire et sous-traitance d'un marché donné,2026-09-25
+CLM-DEP-005,Le portail propose un point d'entrée pour les marchés publics,SRC-SITE-018,SOURCE_INSTITUTIONNELLE,Ne prouve aucun acte d'attribution particulier,2026-09-25

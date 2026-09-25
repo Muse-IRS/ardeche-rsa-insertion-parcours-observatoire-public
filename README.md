@@ -27,6 +27,6 @@ Aucun compte, formulaire de collecte, analytics, cookie applicatif ni générate
 
 ## Audits documentaires des sites — 25 septembre 2026
 
-[Sommaire des cinq pages](audit-technique-sites.html) · [Capévol](audit-technique-capevol.html) · [Pollen SCOP](audit-technique-pollen.html) · [CréaGestion](audit-technique-creagestion.html) · [Ambition ESS et Ambition Travail 07](audit-technique-ambitions.html).
+[Sommaire des six pages](audit-technique-sites.html) · [Département de l’Ardèche](audit-technique-departement.html) · [Capévol](audit-technique-capevol.html) · [Pollen SCOP](audit-technique-pollen.html) · [CréaGestion](audit-technique-creagestion.html) · [Ambition ESS et Ambition Travail 07](audit-technique-ambitions.html).
 
 Les pages distinguent déclarations des éditeurs et sources primaires vérifiées des informations issues du rapport Perplexity. Le site public ne détaille aucun point d'entrée de base de prospects ni aucun dossier individuel ; toute vérification technique nécessitant une administration est réservée à l'exploitant.

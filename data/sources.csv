@@ -21,3 +21,8 @@ SRC-SITE-011,Capévol,Politique de confidentialité,https://capevol.com/politiqu
 SRC-SITE-012,Capévol,Mentions légales,https://capevol.com/mentions-legales,site_autodeclaration,Ardèche,2026-09-25,Pas de date 16 mai retrouvée selon second rapport Perplexity
 SRC-SITE-013,Internet Archive,Archives Web,https://web.archive.org/,archive_publique,international,2026-09-25,Pas de capture historique exploitable retrouvée dans la recherche rapportée
 SRC-SITE-014,Common Crawl,Index des archives publiques,https://index.commoncrawl.org/,archive_publique,international,2026-09-25,Échantillonnage non exhaustif et JavaScript non garanti
+SRC-SITE-015,Département de l'Ardèche,Mentions légales de www.ardeche.fr,https://www.ardeche.fr/mentions-legales/,institutionnel,départemental,2026-09-25,IONOS déclaré pour portail principal seulement
+SRC-SITE-016,Département de l'Ardèche,Politique de confidentialité de www.ardeche.fr,https://www.ardeche.fr/politique-de-confidentialite/,institutionnel,départemental,2026-09-25,Durées formulaires et Matomo non généralisables aux dossiers RSA
+SRC-SITE-017,Département de l'Ardèche,Déclaration d'accessibilité,https://www.ardeche.fr/accessibilite/,institutionnel,départemental,2026-09-25,Auto-déclaration datée du 7 avril 2026 sans test indépendant
+SRC-SITE-018,Département de l'Ardèche,Rubrique marchés publics,https://www.ardeche.fr/125-marches-publics.htm,institutionnel,départemental,2026-09-25,Point d'entrée non acte d'attribution du marché RSA visé
+SRC-SITE-019,Département de l'Ardèche,Plan Ambition Travail 07 2026-2029,https://www.ardeche.fr/wp-content/uploads/2026/03/plan-ambitiontravail-07.pdf,institutionnel,départemental,2026-09-25,Programme et typologies sans acte attribuant un lot précis

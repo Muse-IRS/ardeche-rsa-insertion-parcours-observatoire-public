@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit
 import csv
 ROOT=Path(__file__).resolve().parents[1]
-PAGES=["index.html","marches-prestataires.html","demarches.html","sources.html","charte-editoriale.html","privacy.html","affiche-qr-observatoire.html","audit-technique-sites.html","audit-technique-capevol.html","audit-technique-pollen.html","audit-technique-creagestion.html","audit-technique-ambitions.html"]
+PAGES=["index.html","marches-prestataires.html","demarches.html","sources.html","charte-editoriale.html","privacy.html","affiche-qr-observatoire.html","audit-technique-sites.html","audit-technique-capevol.html","audit-technique-pollen.html","audit-technique-creagestion.html","audit-technique-ambitions.html","audit-technique-departement.html"]
 BASE="https://muse-irs.github.io/ardeche-rsa-insertion-parcours-observatoire-public/"
 class Parser(HTMLParser):
     def __init__(self):
@@ -64,3 +64,15 @@ cap=(ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
 assert "date du 16 mai est rapportée pour la politique actuelle uniquement" in cap
 assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
 assert "Datation : quatre preuves distinctes" in cap
+
+# Prépublication : périmètre départemental et attribution externe de la recherche.
+cap = (ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
+assert "Apports de l'étude technique Perplexity" in cap
+assert "Gemini" not in cap and "erreur de provenance" not in cap
+assert "date du 16 mai est rapportée pour la politique actuelle uniquement" in cap
+assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
+dep = (ROOT/"audit-technique-departement.html").read_text(encoding="utf-8")
+assert "IONOS" in dep and "non réalisés par notre observatoire" in dep
+assert "audit-technique-departement.html" in (ROOT/"audit-technique-sites.html").read_text(encoding="utf-8")
+assert "audit-technique-departement.html" in (ROOT/"sitemap.xml").read_text(encoding="utf-8")
+assert all("Gemini" not in (ROOT/p).read_text(encoding="utf-8") for p in PAGES)
