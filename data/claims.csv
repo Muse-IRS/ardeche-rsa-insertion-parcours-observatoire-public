@@ -11,3 +11,5 @@ CLM-SITE-004,Ambition ESS se présente comme portail tiers hébergé chez o2swit
 CLM-SITE-005,Ambition Travail 07 est un programme départemental 2026-2029,SRC-SITE-008,SOURCE_INSTITUTIONNELLE,Ne prouve aucune attribution de marché particulier,2026-09-25
 CLM-SITE-006,Les deux notices Pollen diffèrent dans leurs déclarations relatives aux données techniques et statistiques,SRC-SITE-003;SRC-SITE-004,DIFFERENCE_TEXTUELLE,Inventaire réel des traceurs non vérifié et périodes non établies,2026-09-25
 CLM-SITE-007,Ambition ESS déclare une logique cookies intégrant la poursuite de navigation,SRC-SITE-006,DECLARATION_PUBLIQUE,La réalité des traceurs soumis à consentement demeure à tester,2026-09-25
+CLM-SITE-008,Perplexity observe le 16 mai dans la politique mais pas les mentions légales actuelles,SRC-SITE-011;SRC-SITE-012,RAPPORT_SECONDAIRE,Cette datation n'est pas confirmée par une capture historique externe,2026-09-25
+CLM-SITE-009,Aucune modification postérieure au 16 mai de ces textes n'est prouvée,SRC-SITE-011;SRC-SITE-012;SRC-SITE-013;SRC-SITE-014,INDETERMINE,Recherche négative non exhaustive et différences de méthode entre audits,2026-09-25

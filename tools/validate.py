@@ -58,3 +58,9 @@ for audit in PAGES[7:]:
     assert "<script" not in text,audit
     assert all(s not in text for s in ("catalogue_leads", "service_role", "boubekeurjeremy")),audit
 assert all((ROOT/p).exists() for p in PAGES)
+
+# Vérifier le rectificatif temporel apporté à la page Capévol.
+cap=(ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
+assert "date du 16 mai est rapportée pour la politique actuelle uniquement" in cap
+assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
+assert "Datation : quatre preuves distinctes" in cap

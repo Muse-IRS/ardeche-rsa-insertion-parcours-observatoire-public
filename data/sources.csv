@@ -17,3 +17,7 @@ SRC-SITE-007,Ambition ESS,Annonce historique recrutement CréaGestion Pollen,htt
 SRC-SITE-008,Département de l Ardèche,Programme Ambition Travail 07,https://www.ardeche.fr/mon-quotidien/insertion-professionnelle/,institutionnel,Ardèche,2026-09-25,Programme 2026-2029 non contrat spécifique
 SRC-SITE-009,CNIL,Information des personnes,https://www.cnil.fr/fr/informer-les-personnes,institutionnel,national,2026-09-25,Obligations générales à appliquer aux traitements réels
 SRC-SITE-010,Bercy,Mentions des sites professionnels,https://www.economie.gouv.fr/entreprises/developper-son-entreprise/innover-et-numeriser-son-entreprise/mentions-sur-votre-site-internet-les-obligations-respecter,institutionnel,national,2026-09-25,Exigences sur les informations hébergeur
+SRC-SITE-011,Capévol,Politique de confidentialité,https://capevol.com/politique-confidentialite,site_autodeclaration,Ardèche,2026-09-25,Date affichée 16 mai selon Perplexity sans archive indépendante
+SRC-SITE-012,Capévol,Mentions légales,https://capevol.com/mentions-legales,site_autodeclaration,Ardèche,2026-09-25,Pas de date 16 mai retrouvée selon second rapport Perplexity
+SRC-SITE-013,Internet Archive,Archives Web,https://web.archive.org/,archive_publique,international,2026-09-25,Pas de capture historique exploitable retrouvée dans la recherche rapportée
+SRC-SITE-014,Common Crawl,Index des archives publiques,https://index.commoncrawl.org/,archive_publique,international,2026-09-25,Échantillonnage non exhaustif et JavaScript non garanti
