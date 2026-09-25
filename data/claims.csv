@@ -9,3 +9,5 @@ CLM-SITE-002,Pollen annonce OVH comme hébergeur du site pollen.coop,SRC-SITE-00
 CLM-SITE-003,Deux politiques publiques Pollen indiquent des durées de contact différentes,SRC-SITE-003;SRC-SITE-004,OBSERVATION_TEXTUELLE,Versions et périmètres distincts possibles,2026-09-25
 CLM-SITE-004,Ambition ESS se présente comme portail tiers hébergé chez o2switch,SRC-SITE-006,DECLARATION_PUBLIQUE,Ne prouve pas hébergement des acteurs référencés,2026-09-25
 CLM-SITE-005,Ambition Travail 07 est un programme départemental 2026-2029,SRC-SITE-008,SOURCE_INSTITUTIONNELLE,Ne prouve aucune attribution de marché particulier,2026-09-25
+CLM-SITE-006,Les deux notices Pollen diffèrent dans leurs déclarations relatives aux données techniques et statistiques,SRC-SITE-003;SRC-SITE-004,DIFFERENCE_TEXTUELLE,Inventaire réel des traceurs non vérifié et périodes non établies,2026-09-25
+CLM-SITE-007,Ambition ESS déclare une logique cookies intégrant la poursuite de navigation,SRC-SITE-006,DECLARATION_PUBLIQUE,La réalité des traceurs soumis à consentement demeure à tester,2026-09-25
