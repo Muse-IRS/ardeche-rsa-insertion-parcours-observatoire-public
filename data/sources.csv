@@ -7,3 +7,13 @@ SRC-RSA-005,BOAMP,Portail des annonces,https://www.boamp.fr/,annonces_officielle
 SRC-RSA-006,data.gouv.fr,Portail open data,https://www.data.gouv.fr/,open_data,national,2026-09-25,Couverture à vérifier
 SRC-RSA-007,Ambition ESS,Fiche Créagestion Pollen,https://drome-ardeche.ambition-ess.org/structures/creagestion-pollen/,annuaire_tiers,régional,2026-09-25,Publication par tiers sans valeur d'acte attributif
 SRC-RSA-008,CADA,Commission d'accès aux documents administratifs,https://www.cada.fr/,institutionnel,national,2026-09-25,Autorité de recours pour la communication documentaire
+SRC-SITE-001,Capévol,Site de formation,https://capevol.com/,site_autodeclaration,Ardèche,2026-09-25,Identité de marque et offre sans qualification du marché
+SRC-SITE-002,Capévol,Page parcours,https://capevol.com/parcours,site_autodeclaration,Ardèche,2026-09-25,Mission depuis mars 2026 déclarée sans acte signé
+SRC-SITE-003,Pollen SCOP,Mentions légales,https://pollen.coop/mentions-legales/,site_autodeclaration,Ardèche,2026-09-25,Hébergeur OVH affiché et durées déclarées
+SRC-SITE-004,Pollen SCOP,Politique de confidentialité,https://pollen.coop/politique-de-confidentialite/,site_autodeclaration,Ardèche,2026-09-25,Durée 36 mois déclarée et périmètre à comparer
+SRC-SITE-005,Pollen SCOP,Centre Pollen Formation,https://pollen.coop/pollen-formation/,site_autodeclaration,Ardèche,2026-09-25,Outils mutualisés annoncés sans fournisseur documenté
+SRC-SITE-006,Ambition ESS,Mentions légales du portail,https://drome-ardeche.ambition-ess.org/nos-mentions-legales,site_autodeclaration,Auvergne-Rhône-Alpes,2026-09-25,o2switch annoncé pour le portail seulement
+SRC-SITE-007,Ambition ESS,Annonce historique CréaGestion Pollen,https://drome-ardeche.ambition-ess.org/structures/creagestion-pollen/,annuaire_tiers,Ardèche,2026-09-25,Ne prouve aucun acte de marché
+SRC-SITE-008,Département de l Ardèche,Programme Ambition Travail 07,https://www.ardeche.fr/mon-quotidien/insertion-professionnelle/,institutionnel,Ardèche,2026-09-25,Programme 2026-2029 non contrat spécifique
+SRC-SITE-009,CNIL,Information des personnes,https://www.cnil.fr/fr/informer-les-personnes,institutionnel,national,2026-09-25,Obligations générales à appliquer aux traitements réels
+SRC-SITE-010,Bercy,Mentions des sites professionnels,https://www.economie.gouv.fr/entreprises/developper-son-entreprise/innover-et-numeriser-son-entreprise/mentions-sur-votre-site-internet-les-obligations-respecter,institutionnel,national,2026-09-25,Exigences sur les informations hébergeur
