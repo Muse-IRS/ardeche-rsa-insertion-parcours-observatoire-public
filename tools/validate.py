@@ -40,7 +40,7 @@ assert all(set(c["source_ids"].split(";")).issubset(ids) for c in claims)
 assert "dossier individuel" in (ROOT/"privacy.html").read_text(encoding="utf-8") or "dossier personnel" in (ROOT/"privacy.html").read_text(encoding="utf-8")
 print(f"OK — {len(PAGES)} pages, {len(sources)} sources, {len(claims)} affirmations et affiche QR A4")
 
-# QR téléchargeable : compatibilité mobile et relation croisée entre observatoires
+# QR téléchargeable et relations publiques explicitement voulues.
 qr_page=(ROOT/"affiche-qr-observatoire.html").read_text(encoding="utf-8")
 assert 'assets/qr-observatoire.png' in qr_page
 assert 'download="observatoire-rsa-ardeche-qr-a4.pdf"' in qr_page
@@ -49,7 +49,7 @@ assert 'ardeche-habitat-sc-amplitudes-observatoire-public/' in qr_page
 assert "autre observatoire" not in qr_page.lower()
 png=(ROOT/"assets/qr-observatoire.png").read_bytes()
 assert png.startswith(b"\x89PNG\r\n\x1a\n") and len(png)>1000
-assert "ardeche-habitat-sc-amplitudes-observatoire-public/" in (ROOT/"index.html").read_text(encoding="utf-8")
+assert "muze-x-emotions-open-resources/" in (ROOT/"index.html").read_text(encoding="utf-8")
 
 # Audit pages: no personal case facts, no active probe or external application scripts.
 for audit in PAGES[7:]:
