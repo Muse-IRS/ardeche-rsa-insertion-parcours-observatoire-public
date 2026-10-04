@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
   <title id="title">Graphe T_site et T_preuve — Capévol — 22 juillet au 4 octobre 2026</title>
-  <desc id="desc">Deux temporalités parallèles distinguent l'état réel du site Capévol de l'état des preuves disponibles. Quatre états sont représentés : 22 juillet, 25 septembre, 4 octobre T3a et 4 octobre T3b.</desc>
+  <desc id="desc">Deux temporalités parallèles distinguent l'état réel du site Capévol de l'état des preuves disponibles. Quatre états sont représentés : T1 le 22 juillet, T2 le 25 septembre, T3a et T3b le 4 octobre.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7faf8"/><stop offset="1" stop-color="#e5efe9"/></linearGradient>
     <linearGradient id="site" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#173e30"/><stop offset="1" stop-color="#267453"/></linearGradient>
@@ -23,38 +23,35 @@
   <text x="210" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#fff">T_preuve</text>
   <text x="330" y="600" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#173e30">État documentaire et probatoire — évolue quand de nouvelles sources deviennent reproductibles</text>
 
-  <!-- horizontal timelines -->
   <line x1="330" y1="430" x2="1420" y2="430" stroke="#267453" stroke-width="5" marker-end="url(#arrow)"/>
   <line x1="330" y1="720" x2="1420" y2="720" stroke="#6b8175" stroke-width="5" marker-end="url(#arrowMuted)"/>
 
-  <!-- site nodes -->
   <g font-family="Arial, Helvetica, sans-serif">
     <rect x="330" y="350" width="245" height="150" rx="18" fill="#f3f8f5" stroke="#267453" stroke-width="2"/>
-    <text x="452" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">22/07/2026</text>
+    <text x="452" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">22/07 · T1</text>
     <text x="352" y="425" font-size="17" fill="#40584c"><tspan x="352" dy="0">État réel non figé</tspan><tspan x="352" dy="25">par artefact complet.</tspan><tspan x="352" dy="25">Aucun changement daté.</tspan></text>
 
     <rect x="610" y="350" width="245" height="150" rx="18" fill="#f3f8f5" stroke="#267453" stroke-width="2"/>
-    <text x="732" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">25/09/2026</text>
-    <text x="632" y="425" font-size="17" fill="#40584c"><tspan x="632" dy="0">Site rendu observé</tspan><tspan x="632" dy="25">selon Perplexity.</tspan><tspan x="632" dy="25">Évolution réelle non datée.</tspan></text>
+    <text x="732" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">25/09 · T2</text>
+    <text x="632" y="425" font-size="17" fill="#40584c"><tspan x="632" dy="0">Site rendu davantage</tspan><tspan x="632" dy="25">documenté techniquement.</tspan><tspan x="632" dy="25">Évolution réelle non datée.</tspan></text>
 
     <rect x="890" y="350" width="245" height="150" rx="18" fill="#f3f8f5" stroke="#267453" stroke-width="2"/>
     <text x="1012" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">04/10 · T3a</text>
-    <text x="912" y="425" font-size="17" fill="#40584c"><tspan x="912" dy="0">Relecture publique.</tspan><tspan x="912" dy="25">Pas de changement</tspan><tspan x="912" dy="25">technique daté.</tspan></text>
+    <text x="912" y="425" font-size="17" fill="#40584c"><tspan x="912" dy="0">Contrôle comparatif.</tspan><tspan x="912" dy="25">Pas de changement</tspan><tspan x="912" dy="25">technique daté.</tspan></text>
 
     <rect x="1170" y="350" width="245" height="150" rx="18" fill="#eef7f2" stroke="#173e30" stroke-width="3"/>
     <text x="1292" y="386" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">04/10 · T3b</text>
     <text x="1192" y="425" font-size="17" fill="#40584c"><tspan x="1192" dy="0">Aucun changement du site</tspan><tspan x="1192" dy="25">démontré entre T3a et T3b.</tspan><tspan x="1192" dy="25">Le discriminant reste ouvert.</tspan></text>
   </g>
 
-  <!-- proof nodes -->
   <g font-family="Arial, Helvetica, sans-serif">
     <rect x="330" y="645" width="245" height="150" rx="18" fill="#f7faf8" stroke="#7b9587" stroke-width="2"/>
-    <text x="452" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">22/07/2026</text>
+    <text x="452" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">22/07 · T1</text>
     <text x="352" y="720" font-size="17" fill="#40584c"><tspan x="352" dy="0">Audit documentaire</tspan><tspan x="352" dy="25">et extraits indexés.</tspan><tspan x="352" dy="25">Couverture limitée.</tspan></text>
 
     <rect x="610" y="645" width="245" height="150" rx="18" fill="#f7faf8" stroke="#7b9587" stroke-width="2"/>
-    <text x="732" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">25/09/2026</text>
-    <text x="632" y="720" font-size="17" fill="#40584c"><tspan x="632" dy="0">Perplexity rapporte</tspan><tspan x="632" dy="25">OVH/Lovable/Cloudflare/</tspan><tspan x="632" dy="25">Supabase + TLS/HSTS.</tspan></text>
+    <text x="732" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">25/09 · T2</text>
+    <text x="632" y="720" font-size="17" fill="#40584c"><tspan x="632" dy="0">Audit technique :</tspan><tspan x="632" dy="25">OVH/Lovable/Cloudflare/</tspan><tspan x="632" dy="25">Supabase + TLS/HSTS.</tspan></text>
 
     <rect x="890" y="645" width="245" height="150" rx="18" fill="#f7faf8" stroke="#7b9587" stroke-width="2"/>
     <text x="1012" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">04/10 · T3a</text>
@@ -62,10 +59,9 @@
 
     <rect x="1170" y="645" width="245" height="150" rx="18" fill="#edf6f1" stroke="#173e30" stroke-width="3"/>
     <text x="1292" y="681" text-anchor="middle" font-size="22" font-weight="700" fill="#173e30">04/10 · T3b</text>
-    <text x="1192" y="720" font-size="17" fill="#40584c"><tspan x="1192" dy="0">Lovable : déclaration</tspan><tspan x="1192" dy="25">first-party renforcée.</tspan><tspan x="1192" dy="25">Autres couches non reproduites.</tspan></text>
+    <text x="1192" y="720" font-size="17" fill="#40584c"><tspan x="1192" dy="0">Lovable : déclaration</tspan><tspan x="1192" dy="25">Capévol renforcée.</tspan><tspan x="1192" dy="25">Autres couches non reproduites.</tspan></text>
   </g>
 
-  <!-- vertical observation links -->
   <g stroke="#9aafa4" stroke-width="2.5" stroke-dasharray="8 8" fill="none">
     <line x1="452" y1="500" x2="452" y2="645"/>
     <line x1="732" y1="500" x2="732" y2="645"/>
