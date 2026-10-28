@@ -59,18 +59,18 @@ for audit in PAGES[7:]:
     assert all(s not in text for s in ("catalogue_leads", "service_role", "boubekeurjeremy")),audit
 assert all((ROOT/p).exists() for p in PAGES)
 
-# Vérifier le rectificatif temporel apporté à la page Capévol.
-cap=(ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
-assert "le 16 mai est la date éditoriale rapportée pour la politique actuelle" in cap
-assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
-assert "Datation : quatre preuves distinctes" in cap
+# Vérifier les invariants documentaires de Capévol à travers les versions T1-T4.
+# La validation porte sur le fond et les limites de preuve, non sur des titres
+# historiques ni sur des formulations littérales abandonnées par la rédaction.
+cap = (ROOT / "audit-technique-capevol.html").read_text(encoding="utf-8")
+assert "16 mai 2026" in cap and "date éditoriale déclarée" in cap
+assert "aucune modification précise des documents juridiques après le 16 mai n’était démontrée" in cap
+assert "Datation : ne pas confondre cinq repères" in cap
+assert "25 septembre 2026 · T2" in cap and "27 octobre 2026 · T4" in cap
+assert "Perplexity" in cap and "Gemini" not in cap
+assert "ÉVOLUTION(T_preuve) != ÉVOLUTION(T_site)" in cap
+assert "aucune modification du site n’est datée" in cap.lower() or "aucun changement du site daté" in cap.lower()
 
-# Prépublication : périmètre départemental et attribution externe de la recherche.
-cap = (ROOT/"audit-technique-capevol.html").read_text(encoding="utf-8")
-assert "Apports de l'étude technique Perplexity" in cap
-assert "Gemini" not in cap and "erreur de provenance" not in cap
-assert "le 16 mai est la date éditoriale rapportée pour la politique actuelle" in cap
-assert "aucune modification précise de ces documents après le 16 mai n'est démontrée" in cap
 dep = (ROOT/"audit-technique-departement.html").read_text(encoding="utf-8")
 assert "IONOS" in dep and "non réalisés par notre observatoire" in dep
 assert "audit-technique-departement.html" in (ROOT/"audit-technique-sites.html").read_text(encoding="utf-8")
